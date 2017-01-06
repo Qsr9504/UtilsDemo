@@ -1,7 +1,7 @@
 # UtilsDemo
-项目常用Utils工具类
-##Activity栈统一管理类
-##全局异常捕捉管理器
+项目常用Utils工具类,主要包括：
+> 1.Activity栈统一管理类
+> 2.全局异常捕捉管理器
 
 ##Activity栈统一管理类</br>
 主要功能有：
