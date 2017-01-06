@@ -13,14 +13,14 @@ import android.content.SharedPreferences;
  * Time : 2017/1/6 17:33
  * Description :SharedPreferences的工具类
  **************************************/
-public class SPUtils {
+public class SPUtil {
 	private static Context mContext = null;
 	private static SharedPreferences sp = null;
 	private static SharedPreferences.Editor editor = null;
 	//保存在手机里面的文件名
 	public static final String FILE_NAME = "share_data";
 
-	private SPUtils(){}//不允许外界创建对象
+	private SPUtil(){}//不允许外界创建对象
 
 	public static void init(Context context,String SP_NAME){
 		mContext = context;

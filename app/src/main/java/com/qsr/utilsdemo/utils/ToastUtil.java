@@ -8,10 +8,10 @@ import com.qsr.utilsdemo.app.App;
  * Time : 2017/1/6 15:08
  * Description : Toast统一管理类
  **************************************/
-public class ToastManage {
+public class ToastUtil {
 	public static boolean isShow = true;
 	//私有化构造
-	private ToastManage()
+	private ToastUtil()
 	{
 		throw new UnsupportedOperationException("cannot be instantiated");
 	}

@@ -16,8 +16,8 @@ import com.qsr.utilsdemo.app.App;
  * Time : 2017/1/6 17:57
  * Description : 获取屏幕信息工具类
  **************************************/
-public class ScreenUtils {
-	private ScreenUtils()
+public class ScreenUtil {
+	private ScreenUtil()
 	{
         /* 不允许实例化 */
 		throw new UnsupportedOperationException("cannot be instantiated");

@@ -8,7 +8,7 @@ import java.security.MessageDigest;
  * Time : 2016/8/3 15:54
  * Description : Md5加密
  **************************************/
-public class Md5 {
+public class Md5Util {
     private static String addSalt = "Qiao9504_*/";
     public static String encoder(String str){
         str += str + addSalt;
