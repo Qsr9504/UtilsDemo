@@ -17,7 +17,6 @@ public class App extends Application {
 	public static Handler handler = null;
 	public static Thread mainThread = null;
 	public static int mainThreadId = 0;//主线程id
-	public static ActivityManager activityManager = null;
 
 	@Override
 	public void onCreate() {
@@ -30,8 +29,6 @@ public class App extends Application {
 	}
 
 	private void initUtils() {
-		//activity管理栈初始化
-		activityManager = ActivityManager.getInstance();
 		//
 	}
 }
