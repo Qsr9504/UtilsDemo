@@ -11,6 +11,7 @@ import android.widget.EditText;
  * Description : 软键盘相关的工具类
  **************************************/
 public class KeyBoardUtil {
+	private KeyBoardUtil(){}
 	/**
 	 * 打开软键盘
 	 * @param mEditText
