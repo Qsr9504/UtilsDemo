@@ -1,8 +1,18 @@
 # UtilsDemo
 项目常用Utils工具类,主要包括：
-> [1.Activity栈统一管理类](https://github.com/Qsr9504/UtilsDemo#activity栈统一管理类) 
+> ###[1.Activity栈统一管理类](https://github.com/Qsr9504/UtilsDemo#activity栈统一管理类) 
+主要功能有：
+* activity跳转
+* avticity销毁
+* 程序退出销毁所有Activity
 
-> [2.全局异常捕捉管理器](https://github.com/Qsr9504/UtilsDemo#全局异常捕捉管理器)
+> ###[2.全局异常捕捉管理器](https://github.com/Qsr9504/UtilsDemo#全局异常捕捉管理器)
+</br>主要功能有：
+* 全局异常的捕捉
+* 自定义异常处理
+* 上传至指定服务器
+
+> ###
 
 ##Activity栈统一管理类</br>
 主要功能有：
