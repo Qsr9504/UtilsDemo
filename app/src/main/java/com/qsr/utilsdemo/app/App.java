@@ -4,8 +4,6 @@ import android.app.Application;
 import android.content.Context;
 import android.os.Handler;
 
-import com.qsr.utilsdemo.utils.ActivityManager;
-import com.qsr.utilsdemo.utils.AppCrashHandle;
 import com.qsr.utilsdemo.utils.LogUtil;
 
 /**************************************

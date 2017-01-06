@@ -10,6 +10,7 @@ import android.util.Log;
  **************************************/
 public class LogUtil {
 	private static boolean isOpen = true;
+	private LogUtil(){}//私有化构造
 	public static void openLog(boolean b){
 		isOpen = b;
 	}

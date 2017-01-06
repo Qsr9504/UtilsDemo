@@ -1,10 +1,12 @@
-package com.qsr.utilsdemo.utils;
+package com.qsr.utilsdemo.app;
 
 import android.content.Context;
 import android.os.Build;
 import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
+
+import com.qsr.utilsdemo.utils.ActivityManager;
 
 /**************************************
  * FileName : com.qsr.utilsdemo.utils
