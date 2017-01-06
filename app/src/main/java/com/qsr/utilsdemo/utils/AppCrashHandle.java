@@ -6,8 +6,6 @@ import android.os.Looper;
 import android.util.Log;
 import android.widget.Toast;
 
-import com.qsr.utilsdemo.app.App;
-
 /**************************************
  * FileName : com.qsr.utilsdemo.utils
  * Author : qsr

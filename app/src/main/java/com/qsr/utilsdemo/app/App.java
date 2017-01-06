@@ -5,6 +5,8 @@ import android.content.Context;
 import android.os.Handler;
 
 import com.qsr.utilsdemo.utils.ActivityManager;
+import com.qsr.utilsdemo.utils.AppCrashHandle;
+import com.qsr.utilsdemo.utils.LogUtil;
 
 /**************************************
  * FileName : com.qsr.utilsdemo
@@ -29,6 +31,9 @@ public class App extends Application {
 	}
 
 	private void initUtils() {
-		//
+		//全局异常捕捉器初始化
+		AppCrashHandle.getInstance().init(mContext);
+		//自定义log信息的开启
+		LogUtil.openLog(true);
 	}
 }
