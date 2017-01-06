@@ -34,4 +34,9 @@ public class App extends Application {
 		//自定义log信息的开启
 		LogUtil.openLog(true);
 	}
+	public static void appExit(){
+		//删除所有的activity
+		//清除sp内容
+		//删除sqLite数据库内容
+	}
 }
