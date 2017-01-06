@@ -14,7 +14,7 @@
 
 > ###
 
-##Activity栈统一管理类</br>
+##1.Activity栈统一管理类</br>
 主要功能有：
 * activity跳转
 * avticity销毁
@@ -89,7 +89,7 @@ public class ActivityManager {
 
 }
 ```
-##全局异常捕捉管理器</br>
+##2.全局异常捕捉管理器</br>
 ```java
 public class AppCrashHandle implements Thread.UncaughtExceptionHandler{
 	private static AppCrashHandle crashHandle = null;
@@ -169,7 +169,7 @@ public class AppCrashHandle implements Thread.UncaughtExceptionHandler{
 	}
 }
 ```
-##App信息工具类</br>
+##3.App信息工具类</br>
 * 获取应用名称
 * 获取版本名称 versionName
 * 获取版本号 versionCode
@@ -245,7 +245,7 @@ public class AppUtil {
 	}
 }
 ```
-##Md5加密类、软键盘工具类</br>
+##4.Md5加密类、软键盘工具类</br>
 * Md5加密
 * 软键盘的展开与关闭
 ```java
@@ -310,7 +310,7 @@ ublic class KeyBoardUtil {
 	}
 }
 ```
-##Log统一管理类、toast统一管理类</br>
+##5.Log统一管理类、toast统一管理类</br>
 * Log信息的打印与关闭
 * toast的弹出与关闭
 ```java
@@ -371,7 +371,7 @@ public class ToastUtil {
 	}
 }
 ```
-##网络状态工具类</br>
+##6.网络状态工具类</br>
 * 判断是否有网络
 * 判断是否是wifi连接
 * 打开网络设置界面
@@ -442,7 +442,7 @@ public class NetUtil {
 	}
 }
 ```
-##屏幕信息工具类</br>
+##7.屏幕信息工具类</br>
 * 获取屏幕宽度
 * 获取屏幕高度
 * 获取状态栏高度
@@ -554,7 +554,7 @@ public class ScreenUtil {
 
 ```
 
-##SharedPreferences工具类</br>
+##8.SharedPreferences工具类</br>
 * 存、取
 * 清除所有数据
 * 查询某个key是否存在
@@ -670,7 +670,7 @@ public class SPUtil {
 	}
 }
 ```
-##界面相关工具类</br>
+##9.界面相关工具类</br>
 * 获取xml中获取color，string ,stringArry
 * 将layout.xml文件 转成 view
 * 进制转换(dp -> px , px -> dp)
